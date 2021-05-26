@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" modified="2021-04-05T10:59:53.285-07:00" lasteditedby="tim" version="2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title>Guide</title>
+  <body>
+    <header>
+      <para styleclass="Heading1">Guide</para>
+    </header>
+    <para styleclass="Normal">Enter topic text here.</para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="Starting-the-App">Starting the App</link>&#32;<link displaytype="text" defaultstyle="true" type="topiclink" href="Logon">Logon</link>&#32;<link displaytype="text" defaultstyle="true" type="topiclink" href="Add_Edit-Static-Elements">Add/Edit Static Elements</link>&#32;<link displaytype="text" defaultstyle="true" type="topiclink" href="Create_Edit-a-Batch">Add/Edit a Batch</link>&#32;</para>
+  </body>
+</topic>

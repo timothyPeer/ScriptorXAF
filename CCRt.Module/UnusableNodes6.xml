@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <Views Id="Views">
+    <DetailView Id="SyCmdClass_DetailView">
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="SyCmdClass">
+              <LayoutGroup Id="SyCmdClass_col1">
+                <LayoutItem Id="BatchIPkd" RelativeSize="20" Removed="True" />
+              </LayoutGroup>
+              <LayoutGroup Id="SyCmdClass_col2">
+                <LayoutItem Id="AdjustmentAccountNumber" RelativeSize="71.428571428571431" Index="1" ShowCaption="False" Removed="True" />
+                <LayoutItem Id="ListOfAccounts" RelativeSize="21.428571428571427" ShowCaption="False" Index="1" Removed="True" />
+                <LayoutItem Id="ListOfWarehouses" RelativeSize="21.428571428571427" ShowCaption="False" Index="1" Removed="True" />
+                <LayoutItem Id="ListOfPartNumbers" RelativeSize="17.647058823529413" ShowCaption="False" Removed="True" />
+                <LayoutItem Id="ListOfPlantCode" RelativeSize="15" ShowCaption="False" Removed="True" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+  </Views>
+</Application>

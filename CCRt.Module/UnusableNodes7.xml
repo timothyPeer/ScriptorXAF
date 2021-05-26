@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <Views Id="Views">
+    <DetailView Id="SyCmdDetClass_DetailView">
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="SyCmdDetClass">
+              <LayoutItem Id="CmdDetKVP" Index="0" RelativeSize="38.554216867469883" Removed="True" />
+              <LayoutItem Id="CmdDetCVPDescription" Index="1" RelativeSize="45.762711864406782" />
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+  </Views>
+</Application>

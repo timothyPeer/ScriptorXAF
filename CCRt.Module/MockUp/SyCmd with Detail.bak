@@ -1,0 +1,14 @@
+{
+	"SyBatch": [
+	{
+	"BatchName" : "CostRollup",
+		"SYCMD" : {	"SYCMDNAME" : "MGR115",
+		[
+		{
+			"CmdDetKVP": "$MANMAN",
+			"CmdDetKVPDesc": "$"
+		}]
+		}
+		]
+	
+}

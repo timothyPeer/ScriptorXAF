@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" modified="2021-04-05T09:15:55.667-07:00" lasteditedby="tim" version="2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title>Sequential Sequence</title>
+  <body>
+    <header>
+      <para styleclass="Heading1">Sequential Sequence</para>
+    </header>
+    <para styleclass="Normal">When multiple parts are added to the Part Master list, during prompting the parts are sequentially listed in the script. </para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal">A sequential sequence is illustrated as follows:</para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Code Example">$MANMAN</para>
+    <para styleclass="Code Example">STANDENS</para>
+    <para styleclass="Code Example">MF UT 157</para>
+    <para styleclass="Code Example">3</para>
+    <para styleclass="Code Example">MGR115_PRE_20210404</para>
+    <para styleclass="Code Example">1</para>
+    <para styleclass="Code Example">1</para>
+    <para styleclass="Code Example"></para>
+    <para styleclass="Code Example"></para>
+    <para styleclass="Code Example">N</para>
+    <para styleclass="Code Example">TRA-2726</para>
+    <para styleclass="Code Example">TRA-2727</para>
+    <para styleclass="Code Example">TRA-2728</para>
+    <para styleclass="Code Example">E</para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"></para>
+  </body>
+</topic>

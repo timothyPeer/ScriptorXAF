@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <BOModel Id="BOModel">
+    <Class Name="CCRt.Module.BusinessObjects.SYCMDName" ImageName="Business_Bank" />
+  </BOModel>
+  <Views Id="Views">
+    <DetailView Id="SYCMDName_DetailView" DefaultFocusedItem="SyCommandName">
+      <Items Id="Items">
+        <PropertyEditor Id="SyVersion" AllowEdit="False" />
+      </Items>
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SizeableEditors">
+            <LayoutItem Id="SyCommandJSON" CaptionWordWrap="Default" ToolTipIconType="WindLogo" ToolTipTitle="tool tip title" />
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <ListView Id="SYCMDName_ListView" IsFooterVisible="True" Caption="Command" />
+  </Views>
+</Application>

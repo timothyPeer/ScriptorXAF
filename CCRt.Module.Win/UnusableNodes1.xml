@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <ActionDesign Id="ActionDesign">
+    <Actions Id="Actions">
+      <Action Id="FtpCommitAction" ImageName="Actions_Database" Caption="FTP " />
+    </Actions>
+  </ActionDesign>
+  <Views Id="Views">
+    <DetailView Id="syBatch_DetailView">
+      <Items Id="Items">
+        <ActionContainerViewItem Id="FtpSimpleActionViewControllerWf" ActionContainer="FTP Commit" />
+      </Items>
+    </DetailView>
+  </Views>
+</Application>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <ActionDesign>
+    <Actions>
+      <Action Id="ActionCommitFTP" ImageName="Actions_Database" Caption="FTP" ToolTip="Save and Send to FTP" />
+    </Actions>
+  </ActionDesign>
+  <BOModel>
+    <Class Name="CCRt.Module.BusinessObjects.SyCmdClass" IsCloneable="True" />
+  </BOModel>
+  <SchemaModules>
+    <SchemaModule Name="CloneObjectModule" Version="19.2.5.0" IsNewNode="True" />
+    <SchemaModule Name="SystemModule" Version="19.2.5.0" IsNewNode="True" />
+    <SchemaModule Name="SystemWindowsFormsModule" Version="19.2.5.0" IsNewNode="True" />
+  </SchemaModules>
+  <Views>
+    <DetailView Id="SyCmdDetClass_DetailView" Caption="Task Detail" />
+    <ListView Id="SyCmdDetClass_ListView" Caption="Task Details" />
+  </Views>
+</Application>

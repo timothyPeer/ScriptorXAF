@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" modified="2021-04-05T09:19:05.512-07:00" lasteditedby="tim" version="2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title>Iterative Sequence</title>
+  <body>
+    <header>
+      <para styleclass="Heading1">Iterative Sequence</para>
+    </header>
+    <para styleclass="Normal">When multiple parts are added to the Part Master list, during prompting the parts are executed as discreet program units in the script. </para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal">A Part&apos;s List: </para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Code Example">TRA-2726</para>
+    <para styleclass="Code Example">TRA-2727</para>
+    <para styleclass="Code Example">TRA-2728</para>
+    <para styleclass="Code Example"></para>
+    <para styleclass="Normal">Generates an iterative sequence is illustrated:</para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal">! First iteration</para>
+    <para styleclass="Code Example">$MANMAN</para>
+    <para styleclass="Code Example">STANDENS</para>
+    <para styleclass="Code Example">MF UT 151</para>
+    <para styleclass="Code Example">1</para>
+    <para styleclass="Code Example">6</para>
+    <para styleclass="Code Example">1</para>
+    <para styleclass="Code Example">2</para>
+    <para styleclass="Code Example">TRA-2726</para>
+    <para styleclass="Code Example">E</para>
+    <para styleclass="Code Example">E</para>
+    <para styleclass="Code Example">! Second Iteration</para>
+    <para styleclass="Code Example">$MANMAN</para>
+    <para styleclass="Code Example">STANDENS</para>
+    <para styleclass="Code Example">MF UT 151</para>
+    <para styleclass="Code Example">1</para>
+    <para styleclass="Code Example">6</para>
+    <para styleclass="Code Example">1</para>
+    <para styleclass="Code Example">2</para>
+    <para styleclass="Code Example">TRA-2727</para>
+    <para styleclass="Code Example">E</para>
+    <para styleclass="Code Example">E</para>
+    <para styleclass="Code Example">! Second Iteration</para>
+    <para styleclass="Code Example">$MANMAN</para>
+    <para styleclass="Code Example">STANDENS</para>
+    <para styleclass="Code Example">MF UT 151</para>
+    <para styleclass="Code Example">1</para>
+    <para styleclass="Code Example">6</para>
+    <para styleclass="Code Example">1</para>
+    <para styleclass="Code Example">2</para>
+    <para styleclass="Code Example">TRA-2728</para>
+    <para styleclass="Code Example">E</para>
+    <para styleclass="Code Example">E</para>
+  </body>
+</topic>

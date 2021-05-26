@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" modified="2021-04-05T09:36:30.597-07:00" lasteditedby="tim" version="2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title>Using Copy Paste Buffer </title>
+  <body>
+    <header>
+      <para styleclass="Heading1">Using Copy Paste Buffer </para>
+    </header>
+    <para styleclass="Normal">In Notepad.exe:</para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal">CTRL-A to select all parts:</para>
+    <para styleclass="Normal">CTRL-Insert to copy the parts to the Copy Buffer. </para>
+    <para styleclass="Normal">SHIFT-Insert to paste the parts in the Copy Buffer to the Part Number screen. </para>
+  </body>
+</topic>

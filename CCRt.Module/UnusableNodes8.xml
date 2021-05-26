@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <Views Id="Views">
+    <DetailView Id="syBatch_DetailView">
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main" RelativeSize="100">
+          <LayoutGroup Id="SimpleEditors" RelativeSize="9.6740273396424818">
+            <LayoutGroup Id="syBatch" Direction="Horizontal" RelativeSize="38.043478260869563">
+              <LayoutItem Id="BatchName" Index="0" RelativeSize="50" />
+              <LayoutItem Id="MaxChildRows" Index="1" RelativeSize="50" />
+            </LayoutGroup>
+            <LayoutGroup Id="SyCustomBase" RelativeSize="61.956521739130437" Direction="Horizontal">
+              <LayoutGroup Id="Auto3a15ac5e-ffa2-4969-9654-70a03796a5bc" ShowCaption="False" Caption="" Index="0" RelativeSize="50">
+                <LayoutItem Id="CreatedBy" ViewItem="CreatedBy" Index="0" RelativeSize="47.368421052631582" />
+                <LayoutItem Id="CreatedOn" ViewItem="CreatedOn" Index="1" RelativeSize="52.631578947368418" />
+              </LayoutGroup>
+              <LayoutGroup Id="Auto361cc06f-95e0-471d-9d2d-e58e7d1f3ef5" ShowCaption="False" Caption="" Index="1" RelativeSize="50">
+                <LayoutItem Id="UpdatedBy" ViewItem="UpdatedBy" Index="0" RelativeSize="47.368421052631582" />
+                <LayoutItem Id="UpdatedOn" ViewItem="UpdatedOn" Index="1" RelativeSize="52.631578947368418" />
+              </LayoutGroup>
+              <LayoutItem Id="UpdatedOn" RelativeSize="37.037037037037038" Index="2" Removed="True" />
+              <LayoutItem Id="CreatedBy" RelativeSize="25.714285714285715" Removed="True" />
+              <LayoutItem Id="CreatedOn" RelativeSize="29.62962962962963" Removed="True" />
+              <LayoutItem Id="UpdatedBy" RelativeSize="22.857142857142858" Removed="True" />
+            </LayoutGroup>
+          </LayoutGroup>
+          <TabbedGroup Id="Tabs" RelativeSize="90.325972660357522">
+            <LayoutGroup Id="SyCmds" RelativeSize="100" Caption="Command Task">
+              <LayoutItem Id="SyCmds" RelativeSize="100" />
+            </LayoutGroup>
+            <LayoutGroup Id="FtpSources" RelativeSize="100">
+              <LayoutItem Id="FtpSources" RelativeSize="100" />
+            </LayoutGroup>
+          </TabbedGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+  </Views>
+</Application>

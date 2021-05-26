@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<map xmlns:xsi="http://www.w3.org/2001/XInclude">
+  <topicref type="topic" id="421579986017862" modified="2015-06-02T18:56:53.338Z" icon="0" href="Stylesheet-for-Style-Test">
+    <caption translate="true">Stylesheet for Style Test</caption>
+  </topicref>
+  <topicref type="topic" id="44291176328673" build="ALL" modified="2021-04-05T08:44:18.226Z" icon="0" href="Introduction">
+    <caption translate="true">Introduction</caption>
+    <topicref type="topic" id="442911823869804" build="ALL" modified="2021-04-05T08:44:18.418Z" icon="0" href="Welcome-topic">
+      <caption translate="true">Welcome topic</caption>
+      <topicref type="topic" id="442913466473292" build="ALL" modified="2021-04-05T10:05:28.934Z" icon="0" href="Overview">
+        <caption translate="true">Overview</caption>
+      </topicref>
+      <topicref type="topic" id="442912940949703" build="ALL" modified="2021-04-05T09:47:56.744Z" icon="0" href="Tokens">
+        <caption translate="true">Tokens</caption>
+      </topicref>
+      <topicref type="topic" id="444014972273" build="ALL" modified="2021-04-05T10:09:22.152Z" icon="0" href="Elements">
+        <caption translate="true">Elements</caption>
+        <topicref type="topic" id="442915550686235" build="ALL" modified="2021-04-05T08:50:41.449Z" icon="0" href="Application-Elements">
+          <caption translate="true">Application Elements</caption>
+          <topicref type="topic" id="442915074471220" build="ALL" modified="2021-04-05T09:04:59.501Z" icon="0" href="Action">
+            <caption translate="true">Action</caption>
+          </topicref>
+          <topicref type="topic" id="442913723462018" build="ALL" modified="2021-04-05T09:06:54.801Z" icon="0" href="Batches">
+            <caption translate="true">Batches</caption>
+          </topicref>
+          <topicref type="topic" id="442914377623964" build="ALL" modified="2021-04-05T09:09:24.580Z" icon="0" href="Default">
+            <caption translate="true">Default</caption>
+          </topicref>
+          <topicref type="topic" id="442914207715802" build="ALL" modified="2021-04-05T09:12:04.542Z" icon="0" href="Lists">
+            <caption translate="true">Lists</caption>
+          </topicref>
+        </topicref>
+        <topicref type="topic" id="442914474805195" build="ALL" modified="2021-04-05T09:39:42.443Z" icon="0" href="Maintaining-Elements">
+          <caption translate="true">Maintaining Elements</caption>
+          <topicref type="topic" id="442912994229751" build="ALL" modified="2021-04-05T09:39:00.719Z" icon="0" href="Add-Adjustment-Account">
+            <caption translate="true">Add/Edit Adjustment Account</caption>
+          </topicref>
+          <topicref type="topic" id="442912357906875" build="ALL" modified="2021-04-05T09:38:51.652Z" icon="0" href="Add-Warehouse">
+            <caption translate="true">Add/Edit Warehouse</caption>
+          </topicref>
+          <topicref type="topic" id="442914926048447" build="ALL" modified="2021-04-05T09:39:09.680Z" icon="0" href="Add-List-Of-Parts">
+            <caption translate="true">Add/Edit List Of Parts</caption>
+          </topicref>
+          <topicref type="topic" id="442916010228149" build="ALL" modified="2021-04-05T09:44:02.941Z" icon="0" href="Editing-an-Element">
+            <caption translate="true">Editing an Element</caption>
+          </topicref>
+        </topicref>
+        <topicref type="topic" id="442912590963984" build="ALL" modified="2021-04-05T10:06:25.951Z" icon="0" href="List-Elements">
+          <caption translate="true">List Elements</caption>
+        </topicref>
+      </topicref>
+      <topicref type="topic" id="44292027855078" build="ALL" modified="2021-04-05T10:10:57.267Z" icon="0" href="Appendix">
+        <caption translate="true">Appendix</caption>
+        <topicref type="topic" id="442914266943958" build="ALL" modified="2021-04-05T09:36:25.746Z" icon="0" href="Using-Copy-Paste-Buffer-">
+          <caption translate="true">Using Copy Paste Buffer </caption>
+        </topicref>
+        <topicref type="topic" id="442912083935461" build="ALL" modified="2021-04-05T10:10:42.207Z" icon="0">
+          <caption translate="true">Sequence Types</caption>
+          <topicref type="topic" id="442913380347464" build="ALL" modified="2021-04-05T09:13:36.225Z" icon="0" href="Iterative-Sequence">
+            <caption translate="true">Iterative Sequence</caption>
+          </topicref>
+          <topicref type="topic" id="442914666219487" build="ALL" modified="2021-04-05T09:14:08.831Z" icon="0" href="Sequential-Sequence">
+            <caption translate="true">Sequential Sequence</caption>
+          </topicref>
+        </topicref>
+      </topicref>
+    </topicref>
+    <topicref type="topic" id="442916316171773" build="ALL" modified="2021-04-05T10:10:15.229Z" icon="0" href="Guide">
+      <caption translate="true">Guide</caption>
+      <topicref type="topic" id="442915263352913" build="ALL" modified="2021-04-05T08:46:05.232Z" icon="0" href="Starting-the-App">
+        <caption translate="true">Starting the App</caption>
+      </topicref>
+      <topicref type="topic" id="442915227135924" build="ALL" modified="2021-04-05T08:47:02.222Z" icon="0" href="Logon">
+        <caption translate="true">Logon</caption>
+      </topicref>
+    </topicref>
+  </topicref>
+</map>

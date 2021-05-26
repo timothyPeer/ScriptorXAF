@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <BOModel>
+    <Class Name="CCRt.Module.BusinessObjects.CommandProperties" DefaultDetailViewImage="Properties" DefaultListViewImage="Properties" ImageName="Properties" />
+    <Class Name="CCRt.Module.BusinessObjects.MgAccounts" Caption="Adjustment Account" />
+    <Class Name="CCRt.Module.BusinessObjects.MgPartMaster" DefaultDetailViewImage="BarCode" DefaultListViewImage="Barcode" ImageName="BarCodeShowText" Caption="List of Parts" />
+    <Class Name="CCRt.Module.BusinessObjects.MgWarehouseMaster" Caption="The Warehouse" />
+  </BOModel>
+  <SchemaModules>
+    <SchemaModule Name="CloneObjectModule" Version="19.2.5.0" IsNewNode="True" />
+    <SchemaModule Name="SystemModule" Version="19.2.5.0" IsNewNode="True" />
+    <SchemaModule Name="SystemWindowsFormsModule" Version="19.2.5.0" IsNewNode="True" />
+  </SchemaModules>
+  <Views>
+    <ListView Id="MgAccounts_ListView" DataAccessMode="Client" />
+    <DetailView Id="SyBatch_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" RelativeSize="100">
+          <LayoutGroup Id="SimpleEditors" RelativeSize="28.266666666666666">
+            <LayoutGroup Id="SyBatch" RelativeSize="50.471698113207545">
+              <LayoutItem Id="MaxChildRows" RelativeSize="29.906542056074766" />
+              <LayoutItem Id="BatchName" RelativeSize="22.429906542056074" />
+              <LayoutItem Id="LastTransferredBy" RelativeSize="22.429906542056074" />
+              <LayoutItem Id="LastTransferredDate" RelativeSize="25.233644859813083" />
+            </LayoutGroup>
+            <LayoutGroup Id="SyCustomBase" RelativeSize="49.528301886792455">
+              <LayoutItem Id="CreatedBy" RelativeSize="25.714285714285715" />
+              <LayoutItem Id="CreatedOn" RelativeSize="22.857142857142858" />
+              <LayoutItem Id="UpdatedBy" RelativeSize="22.857142857142858" />
+              <LayoutItem Id="UpdatedOn" RelativeSize="28.571428571428573" />
+            </LayoutGroup>
+          </LayoutGroup>
+          <TabbedGroup Id="Tabs" RelativeSize="71.733333333333334">
+            <LayoutGroup Id="SyCmds" Caption="Command Task" TextAlignMode="AlignWithChildren" RelativeSize="100">
+              <LayoutItem Id="SyCmds" TextAlignMode="AutoSize" RelativeSize="100" />
+            </LayoutGroup>
+            <LayoutGroup Id="FtpSources" TextAlignMode="AlignWithChildren" RelativeSize="100">
+              <LayoutItem Id="FtpSources" TextAlignMode="AutoSize" RelativeSize="100" />
+            </LayoutGroup>
+            <LayoutGroup Id="MgAccountNumbers" TextAlignMode="AlignWithChildren" RelativeSize="100" Caption="Account Number">
+              <LayoutItem Id="MgAccountNumbers" TextAlignMode="AutoSize" RelativeSize="100" />
+            </LayoutGroup>
+            <LayoutGroup Id="MgPartMasters" TextAlignMode="AlignWithChildren" RelativeSize="100" Caption="List of Parts">
+              <LayoutItem Id="MgPartMasters" TextAlignMode="AutoSize" RelativeSize="100" />
+            </LayoutGroup>
+            <LayoutGroup Id="MgWarehouseMasters" TextAlignMode="AlignWithChildren" RelativeSize="100" Caption="Warehouse">
+              <LayoutItem Id="MgWarehouseMasters" TextAlignMode="AutoSize" RelativeSize="100" />
+            </LayoutGroup>
+            <LayoutGroup Id="ProcessLogs" TextAlignMode="AlignWithChildren" RelativeSize="100" Removed="True">
+              <LayoutItem Id="ProcessLogs" TextAlignMode="AutoSize" RelativeSize="100" />
+            </LayoutGroup>
+          </TabbedGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="SyCmdClass_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" RelativeSize="100">
+          <LayoutGroup Id="SimpleEditors" RelativeSize="27.865404837013671">
+            <LayoutGroup Id="SyCmdClass" RelativeSize="77.35849056603773" Caption="Command Task">
+              <LayoutGroup Id="SyCmdClass_col1" RelativeSize="36.542239685658153">
+                <LayoutItem Id="CmdName" ViewItem="CmdName" Index="0" RelativeSize="18.6046511627907" IsNewNode="True" Removed="True" />
+                <LayoutItem Id="CmdDescription" RelativeSize="81.3953488372093" Index="1" />
+                <LayoutItem Id="AccountDescrip" RelativeSize="21.428571428571427" Index="2" Removed="True" />
+                <LayoutItem Id="MaxChildRows" ViewItem="MaxChildRows" Index="2" RelativeSize="36.363636363636367" Removed="True" />
+                <LayoutItem Id="Sequence" ViewItem="Sequence" Index="4" RelativeSize="35" Removed="True" />
+              </LayoutGroup>
+              <LayoutGroup Id="SyCmdClass_col2" RelativeSize="63.457760314341847" Caption="SyCmdClass_col2">
+                <LayoutItem Id="BatchId" RelativeSize="18.6046511627907" />
+                <LayoutGroup Id="Auto83e58088-4b57-4eee-ab0c-ac4e6dfd4d37" ShowCaption="False" Caption="Auto83e58088-4b57-4eee-ab0c-ac4e6dfd4d37(10)" Direction="Horizontal" Index="1" RelativeSize="20.930232558139537" IsNewNode="True">
+                  <LayoutItem Id="Sequence" ViewItem="Sequence" Index="0" RelativeSize="49.226006191950468" IsNewNode="True" />
+                  <LayoutItem Id="MaxChildRows" ViewItem="MaxChildRows" Index="1" RelativeSize="50.773993808049532" IsNewNode="True" />
+                </LayoutGroup>
+                <LayoutItem Id="EntryDateTime" Index="2" RelativeSize="13.953488372093023" />
+                <LayoutItem Id="Username" Index="3" RelativeSize="13.953488372093023" />
+                <LayoutItem Id="UpdateUserName" Index="4" RelativeSize="13.953488372093023" />
+                <LayoutItem Id="UpdateDateTime" Index="5" RelativeSize="18.6046511627907" />
+              </LayoutGroup>
+            </LayoutGroup>
+            <LayoutGroup Id="SyCustomBase" RelativeSize="22.641509433962263" Direction="Horizontal">
+              <LayoutGroup Id="Auto7067cb67-b876-4234-a9df-086f2b90b8c5" ShowCaption="False" Caption="Auto7067cb67-b876-4234-a9df-086f2b90b8c5(18)" Index="0" RelativeSize="49.905838041431259" IsNewNode="True">
+                <LayoutItem Id="CreatedBy" ViewItem="CreatedBy" Index="0" RelativeSize="50" IsNewNode="True" />
+                <LayoutItem Id="CreatedOn" ViewItem="CreatedOn" Index="1" RelativeSize="50" IsNewNode="True" />
+              </LayoutGroup>
+              <LayoutGroup Id="Auto2b697030-d582-4dc0-98aa-fb0c2be54afc" ShowCaption="False" Caption="Auto2b697030-d582-4dc0-98aa-fb0c2be54afc(21)" Index="1" RelativeSize="50.094161958568741" IsNewNode="True">
+                <LayoutItem Id="UpdatedBy" ViewItem="UpdatedBy" Index="0" RelativeSize="50" IsNewNode="True" />
+                <LayoutItem Id="UpdatedOn" ViewItem="UpdatedOn" Index="1" RelativeSize="50" IsNewNode="True" />
+              </LayoutGroup>
+              <LayoutItem Id="UpdatedOn" RelativeSize="35.714285714285715" Index="2" Removed="True" />
+              <LayoutItem Id="CreatedBy" RelativeSize="27.777777777777779" Removed="True" />
+              <LayoutItem Id="CreatedOn" RelativeSize="28.571428571428573" Removed="True" />
+              <LayoutItem Id="UpdatedBy" RelativeSize="22.222222222222221" Removed="True" />
+            </LayoutGroup>
+          </LayoutGroup>
+          <TabbedGroup Id="Tabs" Index="1" RelativeSize="72.134595162986329" IsNewNode="True" Removed="True">
+            <LayoutGroup Id="SyCmdDetails" ShowCaption="True" Caption="Command Tasks" TextAlignMode="AlignWithChildren" Index="0" RelativeSize="100" IsNewNode="True">
+              <LayoutItem Id="SyCmdDetails" TextAlignMode="AutoSize" ViewItem="SyCmdDetails" Index="0" RelativeSize="100" IsNewNode="True" />
+            </LayoutGroup>
+            <LayoutGroup Id="SyCmdProperties" ShowCaption="True" Caption="Task Properties" TextAlignMode="AlignWithChildren" Index="1" RelativeSize="100" IsNewNode="True">
+              <LayoutItem Id="SyCmdProperties" TextAlignMode="AutoSize" ViewItem="SyCmdProperties" Index="0" RelativeSize="100" IsNewNode="True" />
+            </LayoutGroup>
+          </TabbedGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <ListView Id="SyCmdClass_ListView" AllowEdit="True">
+      <Columns>
+        <ColumnInfo Id="AccountDescrip" Index="-1" />
+        <ColumnInfo Id="BatchId" Index="-1" />
+        <ColumnInfo Id="EntryDateTime" Index="-1" />
+        <ColumnInfo Id="UpdateDateTime" Index="-1" />
+        <ColumnInfo Id="UpdateUserName" Index="-1" />
+        <ColumnInfo Id="Username" Index="-1" />
+        <ColumnInfo Id="Sequence" Index="0" />
+        <ColumnInfo Id="CmdName" Index="1" />
+        <ColumnInfo Id="CmdDescription" Index="2" />
+        <ColumnInfo Id="MaxChildRows" Index="3" />
+      </Columns>
+    </ListView>
+    <ListView Id="SyCmdClass_SyCmdDetails_ListView">
+      <Columns>
+        <ColumnInfo Id="Sequence" SortIndex="0" SortOrder="Ascending" />
+        <ColumnInfo Id="CmdDetKVP" Caption="Task (KeyValueProperty)" Index="1" />
+        <ColumnInfo Id="CmdDetCVPDescription" Index="2" />
+      </Columns>
+    </ListView>
+    <DetailView Id="SyCmdDetClass_DetailView">
+      <Items>
+        <PropertyEditor Id="CmdPk" Index="-1" />
+        <PropertyEditor Id="CreatedBy" Index="-1" />
+        <PropertyEditor Id="CreatedOn" Index="-1" />
+        <PropertyEditor Id="UpdatedBy" Index="-1" />
+        <PropertyEditor Id="UpdatedOn" Index="-1" />
+        <PropertyEditor Id="Sequence" Index="0" />
+        <PropertyEditor Id="CmdDetKVP" Caption="Script (KeyValueProperty)" Index="1" />
+        <PropertyEditor Id="CmdDetCVPDescription" Index="2" />
+      </Items>
+      <Layout>
+        <LayoutGroup Id="Main" RelativeSize="100">
+          <LayoutGroup Id="SimpleEditors" RelativeSize="49.526813880126184">
+            <LayoutGroup Id="SyCmdDetClass" RelativeSize="99.787685774946922" Caption="SyCmdDetClass">
+              <LayoutGroup Id="Autodcda1193-9f44-4a02-a1ff-a11226b5ca7f" ShowCaption="False" Caption="Autodcda1193-9f44-4a02-a1ff-a11226b5ca7f(4)" Direction="Horizontal" Index="0" RelativeSize="0.21276595744680851" IsNewNode="True" />
+              <LayoutItem Id="CmdDetKVP1" ViewItem="CmdDetKVP" Index="1" RelativeSize="87.659574468085111" IsNewNode="True" />
+              <LayoutItem Id="CmdDetCVPDescription" ViewItem="CmdDetCVPDescription" Index="2" RelativeSize="12.127659574468085" IsNewNode="True" />
+              <LayoutItem Id="Sequence" ViewItem="Sequence" Index="2" RelativeSize="32.53012048192771" Removed="True" />
+              <LayoutItem Id="CmdPk" Removed="True" />
+            </LayoutGroup>
+            <LayoutGroup Id="SyCustomBase" RelativeSize="0.21231422505307857" Direction="Horizontal">
+              <LayoutGroup Id="Auto78efe519-bb35-4f52-b43f-8de3df6988ae" ShowCaption="False" Caption="Auto78efe519-bb35-4f52-b43f-8de3df6988ae(8)" Index="0" RelativeSize="50" Direction="Horizontal" IsNewNode="True" />
+              <LayoutGroup Id="Auto41d565ae-462e-48d0-96d7-822e8072eb57" ShowCaption="False" Caption="Auto41d565ae-462e-48d0-96d7-822e8072eb57(11)" Index="1" RelativeSize="50" Direction="Horizontal" IsNewNode="True" />
+              <LayoutItem Id="UpdatedOn" RelativeSize="94.124423963133637" Index="2" Removed="True" />
+              <LayoutItem Id="CreatedBy" RelativeSize="3.0269058295964126" Removed="True" />
+              <LayoutItem Id="CreatedOn" RelativeSize="2.7649769585253456" Removed="True" />
+              <LayoutItem Id="UpdatedBy" RelativeSize="2.6905829596412558" Removed="True" />
+            </LayoutGroup>
+          </LayoutGroup>
+          <LayoutGroup Id="SizeableEditors" RelativeSize="50.473186119873816">
+            <LayoutItem Id="CmdDetCVPDescription" Index="0" RelativeSize="75.0293083235639" Removed="True" />
+            <LayoutItem Id="CmdDetKVP" RelativeSize="24.853458382180538" Index="0" ShowCaption="False" Removed="True" />
+            <LayoutItem Id="Sequence" ViewItem="Sequence" Index="0" RelativeSize="5.625" IsNewNode="True" />
+            <LayoutGroup Id="Autoac6e374f-29fb-4118-8d6d-12839c66a380" ShowCaption="False" Caption="" Direction="Horizontal" Index="1" RelativeSize="10" IsNewNode="True">
+              <LayoutGroup Id="Autoc755fe2a-2390-419c-99de-bafe846421c2" ShowCaption="False" Caption="" Index="0" RelativeSize="50" IsNewNode="True">
+                <LayoutItem Id="UpdatedBy" ViewItem="UpdatedBy" Index="0" RelativeSize="50" IsNewNode="True" />
+                <LayoutItem Id="UpdatedOn" ViewItem="UpdatedOn" Index="1" RelativeSize="50" IsNewNode="True" />
+              </LayoutGroup>
+              <LayoutGroup Id="Auto00f81542-a788-4f6e-8887-f0b974c4c051" ShowCaption="False" Caption="" Index="1" RelativeSize="50" IsNewNode="True">
+                <LayoutItem Id="CreatedBy" ViewItem="CreatedBy" Index="0" RelativeSize="50" IsNewNode="True" />
+                <LayoutItem Id="CreatedOn" ViewItem="CreatedOn" Index="1" RelativeSize="50" IsNewNode="True" />
+              </LayoutGroup>
+            </LayoutGroup>
+            <LayoutItem Id="Item1" Index="2" RelativeSize="84.375" IsNewNode="True" />
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <ListView Id="SyCmdDetClass_ListView">
+      <Columns>
+        <ColumnInfo Id="CmdPk" Index="-1" />
+        <ColumnInfo Id="Sequence" SortIndex="0" SortOrder="Ascending" />
+        <ColumnInfo Id="CmdDetKVP" Index="1" />
+        <ColumnInfo Id="CmdDetCVPDescription" Index="2" />
+      </Columns>
+    </ListView>
+  </Views>
+</Application>

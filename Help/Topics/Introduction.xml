@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" modified="2021-04-05T12:43:38.179-07:00" lasteditedby="tim" version="2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title>Introduction</title>
+  <body>
+    <header>
+      <para styleclass="Heading1">Introduction</para>
+    </header>
+    <para styleclass="Normal">Welcome to the Scriptor application. &#160;This application is a convenience application that is built to stream/line coordinate &#160;MANMAN/ERP scripts updated and maintained by multiple user group/communities. </para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal">The application requires minimal initial setup and configuration of a batch sequence and population of static data. &#160;Certain static data such as part number lists change frequently, Scriptor provides for editing an existing list and modifying the list as necessary. &#160;MANMAN/ERP DCL scripts are executed during exclusive processing each night. &#160;It is within the province and responsibility of the MANMAN/ERP DCL batch job to move, rename, handles processed Scriptor batch scripts. </para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal">The Scriptor application is a multi-user application. &#160;As an example a user in Finance and execute the application and prepare a batch for planned execution. &#160;A user in Engineer can then make changes to the batch and prepare the changed batch for planned execution. &#160;</para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text style="font-weight:bold;">The tree structure is as follows:</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal">Batch</para>
+    <para styleclass="Normal"> &#160; &#160; &#160;MANMAN Command </para>
+    <para styleclass="Normal"><tab /> &#160; &#160; &#160; &#160; Task</para>
+    <para styleclass="Normal"><tab /> &#160; &#160; &#160; &#160; Task</para>
+    <para styleclass="Normal"><tab /> &#160; &#160; &#160; &#160; Task</para>
+    <para styleclass="Normal"><tab /> &#160; &#160; &#160; &#160; Task</para>
+    <para styleclass="Normal"> &#160; &#160; &#160;MANMAN Command</para>
+    <para styleclass="Normal"><tab /> &#160; &#160; &#160; &#160; Task</para>
+    <para styleclass="Normal"><tab /> &#160; &#160; &#160; &#160; Task</para>
+    <para styleclass="Normal"><tab /> &#160; &#160; &#160; &#160; Task</para>
+    <para styleclass="Normal"><tab /> &#160; &#160; &#160; &#160; Task</para>
+    <para styleclass="Normal"> &#160; &#160; MANMAN Command</para>
+    <para styleclass="Normal"><tab /> &#160; &#160; &#160; &#160; Task</para>
+    <para styleclass="Normal"><tab /> &#160; &#160; &#160; &#160; Task</para>
+    <para styleclass="Normal"><tab /> &#160; &#160; &#160; &#160; Task</para>
+    <para styleclass="Normal"><tab /> &#160; &#160; &#160; &#160; Task</para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text style="font-weight:bold;">Categories:</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal">Action</para>
+    <para styleclass="Normal">Batches</para>
+    <para styleclass="Normal">Default (user and system configuration)</para>
+    <para styleclass="Normal">Lists</para>
+    <para styleclass="Normal">System</para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text style="font-weight:bold;">Considerations: </text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal">Many users can run this application, but with one user at a time executing it concurrently.</para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="Elements">Elements</link> &#160;<link displaytype="text" defaultstyle="true" type="topiclink" href="Guide">Guide</link>&#32;<link displaytype="text" defaultstyle="true" type="topiclink" href="Appendix">Appendix</link></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal">Copyright (c) 2020-2021</para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"></para>
+  </body>
+</topic>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" modified="2021-04-05T10:41:02.369-07:00" lasteditedby="tim" version="2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title>List Elements</title>
+  <body>
+    <header>
+      <para styleclass="Heading1">List Elements</para>
+    </header>
+    <para styleclass="Normal">Command :==: The MANMAN command, e.g. MGR115</para>
+    <para styleclass="Normal">Sequence :==: &#160;The sequence (ascending) order that the task command/task will execute.</para>
+    <para styleclass="Normal">MaxChildRows :==: The number of child rows that configured for the task.</para>
+    <para styleclass="Normal">Description :==: The description of the Command / Task</para>
+    <para styleclass="Normal"></para>
+  </body>
+</topic>

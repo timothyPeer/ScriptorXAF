@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <Views Id="Views">
+    <DetailView Id="SyCmdClass_DetailView">
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="SyCmdClass">
+              <LayoutGroup Id="SyCmdClass_col1">
+                <LayoutItem Id="BatchIPkd" Index="2" RelativeSize="67.441860465116278" Removed="True" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <ListView Id="SyCmdClass_ListView">
+      <Columns Id="Columns">
+        <ColumnInfo Id="BatchIPkd" Index="-1" />
+      </Columns>
+    </ListView>
+  </Views>
+</Application>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" modified="2021-04-05T10:18:28.774-07:00" lasteditedby="tim" version="2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title>Create/Edit a Batch</title>
+  <body>
+    <header>
+      <para styleclass="Heading1">Create/Edit a Batch</para>
+    </header>
+    <para styleclass="Normal">Create or edit a batch. &#160;Select the batch by double clicking it on the list view. </para>
+  </body>
+</topic>

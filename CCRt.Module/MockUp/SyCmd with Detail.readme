@@ -1,0 +1,77 @@
+{
+  "SyBatch": [
+    {
+      "SyCmd": [
+
+        {
+          "MGR115": [
+            {
+              "CmdDetKVP": "$MANMAN",
+              "CmdDetKVPDesc": "$"
+            },
+            {
+              "CmdDetKVP": "STANDENS",
+              "CmdDetKVPDesc": "PLANT CODE (STANDENS)?"
+            },
+            {
+              "CmdDetKVPDesc": "COMMAND (STANDENS, OMAR)?",
+              "CmdDetKVP": "MF RE 115"
+            },
+            {
+              "CmdDetKVP": "3",
+              "CmdDetKVPDesc": "OUTPUT OPTION (0)?"
+            },
+            {
+              "CmdDetKVP": "MGR115_PRE_**DATETIME**",
+              "CmdDetKVPDesc": "OUTPUT OPTION (0)?"
+            },
+            {
+              "CmdDetKVP": "N",
+              "CmdDetKVPDesc": "OUTPUT OPTION (0)?"
+            },
+            {
+              "CmdDetKVP": "N",
+              "CmdDetKVPDesc": "DO YOU WANT TO UPDATE THE DecisionMaker DATABASE (N/Y)?"
+            },
+            {
+              "CmdDetKVP": "1",
+              "CmdDetKVPDesc": "OPTION (1)?"
+            },
+            {
+              "CmdDetKVP": "CGY",
+              "CmdDetKVPDesc": "WAREHOUSE?"
+            },
+            {
+              "CmdDetKVP": "Y",
+              "CmdDetKVPDesc": "EXTEND THE VALUE OF PARTS WITH NEGATIVE QOH (Y/N)?"
+            },
+            {
+              "CmdDetKVP": "1",
+              "CmdDetKVPDesc": "OPTION?"
+            },
+            {
+              "CmdDetKVP": "1",
+              "CmdDetKVPDesc": "ENTER COST DETAIL OPTION: OPTION?"
+            },
+            {
+              "CmdDetKVP": "2",
+              "CmdDetKVPDesc": "ENTER DESIRED SORT OPTION: OPTION?"
+            },
+            {
+              "CmdDetKVP": "1-234-5678",
+              "CmdDetKVPDesc": "ENTER ACCOUNT NUMBER. ENTER <C/R> TO CONTINUE: ACCOUNT NUMBER?"
+            },
+            {
+              "CmdDetKVP": "N",
+              "CmdDetKVPDesc": "PRINT ACCOUNT TOTALS ONLY (Y/N)? OPTION"
+            },
+            {
+              "CmdDetKVP": "E",
+              "CmdDetKVPDesc": "WAREHOUSE? OPTION"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

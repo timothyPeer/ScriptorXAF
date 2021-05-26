@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-16"?>
+<LoginInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CustomerID>0</CustomerID>
+  <TexDBConnectionString />
+  <TeXHostname>tex_SVR</TeXHostname>
+  <TeXHostUserName>tex_UID</TeXHostUserName>
+  <TeXHostPassword>tex_PWD</TeXHostPassword>
+  <TeXLogDirectory>c:\envy\logs</TeXLogDirectory>
+  <TeXRecordingDirectory>c:\envy\RecordFiles</TeXRecordingDirectory>
+  <TeXOutputDirectory>c:\envy\output</TeXOutputDirectory>
+  <TeXInputDirectory>c:\envy\input</TeXInputDirectory>
+  <TeXDebugDirectory>c:\envy\debug</TeXDebugDirectory>
+  <TeXRecordingEnabled>true</TeXRecordingEnabled>
+  <TeXDebugEnabled>true</TeXDebugEnabled>
+  <TexLoggingEnabled>true</TexLoggingEnabled>
+  <IsEncrypted>false</IsEncrypted>
+  <SetEncryption>false</SetEncryption>
+  <TexScreenLength>24</TexScreenLength>
+  <TexScreenWidth>80</TexScreenWidth>
+  <TexLoggingLevel>Debug</TexLoggingLevel>
+  <TexServerPrompt>tex_DCLPROMPT</TexServerPrompt>
+  <TexServerTimeout>1000</TexServerTimeout>
+  <DomainSubDirectory />
+</LoginInfo>

@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" modified="2021-04-05T10:52:57.775-07:00" lasteditedby="tim" version="2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title>Tokens</title>
+  <keywords>
+    <keyword>**ACCOUNT_NUMBER**</keyword>
+    <keyword>**DATETIME**</keyword>
+    <keyword>**PART_NUMBER**</keyword>
+    <keyword>**PART_NUMBER_ITERATIVE**</keyword>
+    <keyword>**WAREHOUSE**</keyword>
+    <keyword>iterative sequence</keyword>
+    <keyword>sequential sequence</keyword>
+    <keyword>warehouse</keyword>
+  </keywords>
+  <body>
+    <header>
+      <para styleclass="Heading1">Tokens</para>
+    </header>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal">The following tokens are supported by Scriptor.</para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><table styleclass="Default" rowcount="6" colcount="2">
+      <tr style="vertical-align:top">
+        <td style="width:350px;">
+          <para styleclass="Normal"><text style="font-weight:bold;">Token</text></para>
+        </td>
+        <td style="width:1247px;">
+          <para styleclass="Normal"><text style="font-weight:bold;">Description</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:350px;">
+          <para styleclass="Code Example">**PART_NUMBER_ITERATIVE**</para>
+        </td>
+        <td style="width:1247px;">
+          <para styleclass="Normal">Identifies to the task as an <link displaytype="text" defaultstyle="true" type="topiclink" href="Iterative-Sequence">iterative</link>&#32;<link displaytype="text" defaultstyle="true" type="topiclink" href="Sequential-Sequence">sequence</link> task.</para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:350px;">
+          <para styleclass="Code Example">**PART_NUMBER**</para>
+        </td>
+        <td style="width:1247px;">
+          <para styleclass="Normal">Identifies to the task as a sequential sequence task. &#160;One or a list of part numbers are processed.</para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:350px;">
+          <para styleclass="Code Example">**WAREHOUSE**</para>
+        </td>
+        <td style="width:1247px;">
+          <para styleclass="Normal">Identifies to the task, the warehouse to be used when prompted. </para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:350px;">
+          <para styleclass="Code Example">**ACCOUNT_NUMBER**</para>
+        </td>
+        <td style="width:1247px;">
+          <para styleclass="Normal">Identifies to the task, the adjustment account number to be used when prompted. </para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:350px;">
+          <para styleclass="Code Example">**DATETIME**</para>
+        </td>
+        <td style="width:1247px;">
+          <para styleclass="Normal">Identifies to the task, a date mask of yyyyMMdd is appended to the creation file name. &#160;</para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text style="font-weight:bold;">Examples:</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal">**DATETIME** &#160;:==: MGR115_PRE_20210404</para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text style="font-weight:bold;">Task Command as defined:</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal">$MANMAN</para>
+    <para styleclass="Normal">STANDENS</para>
+    <para styleclass="Normal">MF, RE, 115</para>
+    <para styleclass="Normal">3</para>
+    <para styleclass="Normal">MGR115_PRE_<text styleclass="Code Example">**DATETIME**</text></para>
+    <para styleclass="Normal">N</para>
+    <para styleclass="Normal">N</para>
+    <para styleclass="Normal">1</para>
+    <para styleclass="Normal"><text styleclass="Code Example">**WAREHOUSE**</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal">Y</para>
+    <para styleclass="Normal">1</para>
+    <para styleclass="Normal">1</para>
+    <para styleclass="Normal">2</para>
+    <para styleclass="Code Example">**ACCOUNT_NUMBER**</para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal">N</para>
+    <para styleclass="Normal">E</para>
+    <para styleclass="Normal">E</para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text style="font-weight:bold;">Task Command is transformed to:</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal">$MANMAN</para>
+    <para styleclass="Normal">STANDENS</para>
+    <para styleclass="Normal">MF, RE, 115</para>
+    <para styleclass="Normal">3</para>
+    <para styleclass="Normal">MGR115_PRE_20210404</para>
+    <para styleclass="Normal">N</para>
+    <para styleclass="Normal">N</para>
+    <para styleclass="Normal">1</para>
+    <para styleclass="Normal">CGY</para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal">Y</para>
+    <para styleclass="Normal">1</para>
+    <para styleclass="Normal">1</para>
+    <para styleclass="Normal">2</para>
+    <para styleclass="Normal">1-002-0680</para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal">N</para>
+    <para styleclass="Normal">E</para>
+    <para styleclass="Normal">E</para>
+  </body>
+</topic>

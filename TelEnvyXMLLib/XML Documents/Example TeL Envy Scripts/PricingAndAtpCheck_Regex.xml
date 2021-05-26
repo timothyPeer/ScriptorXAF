@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Session>
+	<SessSeq ServerName="192.168.201.97" ServerTimeout="5000" DebugEnabled="true" LoggingEnabled="true" RecordingEnabled="true">
+		<Expect>([Uu]sername)|([Ll]ogin): ?</Expect>
+		<SendEnter>Fidel</SendEnter>
+		<Expect>[Pp]assword: ?</Expect>
+		<SendEnter>Welcome</SendEnter>
+		<Expect Timeout="1">(TRANSTYPE):</Expect>
+		<SendEnter>1</SendEnter>
+		<Expect>(RAMAC):</Expect>
+		<SendEnter>RamacNumber</SendEnter>
+		<Expect>(PART):</Expect>
+		<SendEnter>TRA-2726</SendEnter>
+		<Expect>(QUANTITY):</Expect>
+		<SendEnter>20</SendEnter>
+		<Expect>(ORDER TYPE):</Expect>
+		<SendEnter>20</SendEnter>
+		<Expect Name="PricingAndATPCheck" Grab="true">[*][*][*]END OF RESPONSE[*][*][*]</Expect>
+	</SessSeq>
+</Session>
+

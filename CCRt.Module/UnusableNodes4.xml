@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <Views Id="Views">
+    <DetailView Id="SyCmdClass_DetailView">
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main">
+          <TabbedGroup Id="Tabs" RelativeSize="83.491062039957939">
+            <LayoutGroup Id="SyCmdDetails" Caption="Tasks" RelativeSize="100">
+              <LayoutItem Id="SyCmdDetails" RelativeSize="100" />
+            </LayoutGroup>
+            <LayoutGroup Id="MgPartMasters" RelativeSize="100" Caption="Selected Parts" Index="1">
+              <LayoutItem Id="MgPartMasters" RelativeSize="100" />
+            </LayoutGroup>
+            <LayoutGroup Id="MgAccountNumbers" RelativeSize="100" Caption="Account Number" Index="2">
+              <LayoutItem Id="MgAccountNumbers" RelativeSize="100" />
+            </LayoutGroup>
+            <LayoutGroup Id="MgWarehouseMasters" RelativeSize="100" Caption="Warehouse">
+              <LayoutItem Id="MgWarehouseMasters" RelativeSize="100" />
+            </LayoutGroup>
+          </TabbedGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+  </Views>
+</Application>

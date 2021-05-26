@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <Views Id="Views">
+    <DetailView Id="syBatch_DetailView">
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SyCmds_Group" TextAlignMode="AlignWithChildren" Direction="Vertical" Index="2" RelativeSize="77.674418604651166" Caption="Commands Associated with this Batch">
+            <LayoutItem Id="SyCmds" RelativeSize="100" />
+          </LayoutGroup>
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="SyCustomBase">
+              <LayoutItem Id="CreatedBy" RelativeSize="25.714285714285715" Removed="True" />
+              <LayoutItem Id="CreatedOn" RelativeSize="22.857142857142858" Removed="True" />
+              <LayoutItem Id="UpdatedBy" RelativeSize="22.857142857142858" Removed="True" />
+              <LayoutItem Id="UpdatedOn" RelativeSize="28.571428571428573" Removed="True" />
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+  </Views>
+</Application>

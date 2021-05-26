@@ -1,0 +1,72 @@
+﻿
+
+Attempting to gather dependency information for package 'BuildBundlerMinifier.3.2.449' with respect to project 'CCRt.Win', targeting '.NETFramework,Version=v4.5.2'
+Gathering dependency information took 64.82 ms
+Attempting to resolve dependencies for package 'BuildBundlerMinifier.3.2.449' with DependencyBehavior 'Lowest'
+Resolving dependency information took 0 ms
+Resolving actions to install package 'BuildBundlerMinifier.3.2.449'
+Resolved actions to install package 'BuildBundlerMinifier.3.2.449'
+
+
+Attempting to gather dependency information for package 'BuildBundlerMinifier.3.2.449' with respect to project 'CCRt.Module.Win', targeting '.NETFramework,Version=v4.5.2'
+Gathering dependency information took 0.48 ms
+Attempting to resolve dependencies for package 'BuildBundlerMinifier.3.2.449' with DependencyBehavior 'Lowest'
+Resolving dependency information took 0 ms
+Resolving actions to install package 'BuildBundlerMinifier.3.2.449'
+Resolved actions to install package 'BuildBundlerMinifier.3.2.449'
+
+
+Attempting to gather dependency information for package 'BuildBundlerMinifier.3.2.449' with respect to project 'CCRt.Web', targeting '.NETFramework,Version=v4.5.2'
+Gathering dependency information took 0.09 ms
+Attempting to resolve dependencies for package 'BuildBundlerMinifier.3.2.449' with DependencyBehavior 'Lowest'
+Resolving dependency information took 0 ms
+Resolving actions to install package 'BuildBundlerMinifier.3.2.449'
+Resolved actions to install package 'BuildBundlerMinifier.3.2.449'
+
+
+Attempting to gather dependency information for package 'BuildBundlerMinifier.3.2.449' with respect to project 'CCRt.Module.Web', targeting '.NETFramework,Version=v4.5.2'
+Gathering dependency information took 0.09 ms
+Attempting to resolve dependencies for package 'BuildBundlerMinifier.3.2.449' with DependencyBehavior 'Lowest'
+Resolving dependency information took 0 ms
+Resolving actions to install package 'BuildBundlerMinifier.3.2.449'
+Resolved actions to install package 'BuildBundlerMinifier.3.2.449'
+
+
+Attempting to gather dependency information for package 'BuildBundlerMinifier.3.2.449' with respect to project 'CCRt.Module', targeting '.NETFramework,Version=v4.5.2'
+Gathering dependency information took 0.2 ms
+Attempting to resolve dependencies for package 'BuildBundlerMinifier.3.2.449' with DependencyBehavior 'Lowest'
+Resolving dependency information took 0 ms
+Resolving actions to install package 'BuildBundlerMinifier.3.2.449'
+Resolved actions to install package 'BuildBundlerMinifier.3.2.449'
+Retrieving package 'BuildBundlerMinifier 3.2.449' from 'nuget.org'.
+  GET https://api.nuget.org/v3-flatcontainer/buildbundlerminifier/3.2.449/buildbundlerminifier.3.2.449.nupkg
+  OK https://api.nuget.org/v3-flatcontainer/buildbundlerminifier/3.2.449/buildbundlerminifier.3.2.449.nupkg 207ms
+Installing BuildBundlerMinifier 3.2.449.
+Adding package 'BuildBundlerMinifier.3.2.449' to folder 'D:\VS2017\CCRt\packages'
+Added package 'BuildBundlerMinifier.3.2.449' to folder 'D:\VS2017\CCRt\packages'
+Added package 'BuildBundlerMinifier.3.2.449' to 'packages.config'
+Successfully installed 'BuildBundlerMinifier 3.2.449' to CCRt.Win
+Executing nuget actions took 2.2 sec
+Found package 'BuildBundlerMinifier 3.2.449' in 'D:\VS2017\CCRt\packages'.
+Package 'BuildBundlerMinifier.3.2.449' already exists in folder 'D:\VS2017\CCRt\packages'
+Added package 'BuildBundlerMinifier.3.2.449' to 'packages.config'
+Successfully installed 'BuildBundlerMinifier 3.2.449' to CCRt.Module.Win
+Executing nuget actions took 727.42 ms
+Found package 'BuildBundlerMinifier 3.2.449' in 'D:\VS2017\CCRt\packages'.
+Package 'BuildBundlerMinifier.3.2.449' already exists in folder 'D:\VS2017\CCRt\packages'
+Added package 'BuildBundlerMinifier.3.2.449' to 'packages.config'
+Successfully installed 'BuildBundlerMinifier 3.2.449' to CCRt.Web
+Executing nuget actions took 898.06 ms
+Found package 'BuildBundlerMinifier 3.2.449' in 'D:\VS2017\CCRt\packages'.
+Package 'BuildBundlerMinifier.3.2.449' already exists in folder 'D:\VS2017\CCRt\packages'
+Added package 'BuildBundlerMinifier.3.2.449' to 'packages.config'
+Successfully installed 'BuildBundlerMinifier 3.2.449' to CCRt.Module.Web
+Executing nuget actions took 658.51 ms
+Found package 'BuildBundlerMinifier 3.2.449' in 'D:\VS2017\CCRt\packages'.
+Package 'BuildBundlerMinifier.3.2.449' already exists in folder 'D:\VS2017\CCRt\packages'
+Added package 'BuildBundlerMinifier.3.2.449' to 'packages.config'
+Successfully installed 'BuildBundlerMinifier 3.2.449' to CCRt.Module
+Executing nuget actions took 1.25 sec
+Time Elapsed: 00:00:05.9834793
+========== Finished ==========
+

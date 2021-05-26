@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <NavigationItems Id="NavigationItems" StartupNavigationItem="syBatch_ListView" />
+  <Views Id="Views">
+    <DetailView Id="syBatch_DetailView">
+      <Items Id="Items">
+        <ActionContainerViewItem Id="FtpCommitAction" Caption="Save to FTP" />
+      </Items>
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors" RelativeSize="9.989484752891693">
+            <LayoutGroup Id="syBatch" RelativeSize="36.8421052631579">
+              <LayoutItem Id="BatchName" RelativeSize="53.987730061349694" />
+              <LayoutItem Id="MaxChildRows" RelativeSize="46.012269938650306" />
+            </LayoutGroup>
+            <LayoutGroup Id="SyCustomBase" RelativeSize="63.1578947368421">
+              <LayoutGroup Id="Auto3a15ac5e-ffa2-4969-9654-70a03796a5bc" Caption="Auto3a15ac5e-ffa2-4969-9654-70a03796a5bc(7)" RelativeSize="54.110429447852759">
+                <LayoutItem Id="CreatedBy" RelativeSize="50" />
+                <LayoutItem Id="CreatedOn" RelativeSize="50" />
+              </LayoutGroup>
+              <LayoutGroup Id="Auto361cc06f-95e0-471d-9d2d-e58e7d1f3ef5" Caption="Auto361cc06f-95e0-471d-9d2d-e58e7d1f3ef5(15)" RelativeSize="45.889570552147241">
+                <LayoutItem Id="UpdatedBy" RelativeSize="50" />
+                <LayoutItem Id="UpdatedOn" RelativeSize="50" />
+              </LayoutGroup>
+              <LayoutGroup Id="Item2" Removed="True" />
+            </LayoutGroup>
+          </LayoutGroup>
+          <LayoutGroup Id="Autoff672436-0d5b-4bd1-919c-b90be9c404a6" RelativeSize="3.680336487907466">
+            <LayoutItem Id="Item1" RelativeSize="76.932515337423311" />
+            <LayoutItem Id="FtpSimpleActionViewControllerWf" RelativeSize="23.067484662576685" />
+          </LayoutGroup>
+          <TabbedGroup Id="Tabs" Index="2" RelativeSize="86.330178759200848">
+            <LayoutGroup Id="SyCmds" TextAlignMode="AlignWithChildren">
+              <LayoutItem Id="SyCmds" TextAlignMode="AutoSize" />
+            </LayoutGroup>
+            <LayoutGroup Id="MgPartMasters" TextAlignMode="AlignWithChildren" RelativeSize="100" Caption="List of Parts" Index="1">
+              <LayoutItem Id="MgPartMasters" TextAlignMode="AutoSize" RelativeSize="100" />
+            </LayoutGroup>
+            <LayoutGroup Id="FtpSources" TextAlignMode="AlignWithChildren" Index="2" GroupStyle="Inherited">
+              <LayoutItem Id="FtpSources" TextAlignMode="AutoSize" />
+            </LayoutGroup>
+            <LayoutGroup Id="MgAccountNumbers" TextAlignMode="AlignWithChildren" RelativeSize="100" Caption="Adjustment Account" Index="3">
+              <LayoutItem Id="MgAccountNumbers" TextAlignMode="AutoSize" RelativeSize="100" />
+            </LayoutGroup>
+            <LayoutGroup Id="MgWarehouseMasters" Caption="Warehouse" TextAlignMode="AlignWithChildren" RelativeSize="100">
+              <LayoutItem Id="MgWarehouseMasters" TextAlignMode="AutoSize" RelativeSize="100" />
+            </LayoutGroup>
+          </TabbedGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+  </Views>
+</Application>

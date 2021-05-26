@@ -1,0 +1,360 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{125FB745-EC5A-445A-AFF8-88D67DC05D6F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TelEnvyXmlLib</RootNamespace>
+    <AssemblyName>TelEnvyXmlLib</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Debug\TelEnvyXmlLib.xml</DocumentationFile>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+    <CodeAnalysisIgnoreGeneratedCode>false</CodeAnalysisIgnoreGeneratedCode>
+    <NoWarn>1591</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+    <DocumentationFile>bin\Release\TelEnvyXmlLib.XML</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>.\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisLogFile>bin\Debug\TeXXmlLib.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisLogFile>bin\Release\TeXXmlLib.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>..\build\debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>..\build\debug\TelEnvyXmlLib.xml</DocumentationFile>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisLogFile>bin\Debug\TeXXmlLib.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisLogFile>bin\Release\TeXXmlLib.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CsQuery, Version=1.3.3.249, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\CsQuery.1.3.4\lib\net40\CsQuery.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.10.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c, processorArchitecture=MSIL">
+      <HintPath>..\packages\NLog.4.6.8\lib\net45\NLog.dll</HintPath>
+    </Reference>
+    <Reference Include="nsoftware.IPWorks, Version=16.0.6588.0, Culture=neutral, PublicKeyToken=cdc168f89cffe9cf, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files\nsoftware\IPWorks 2016 .NET Edition\lib\nsoftware.IPWorks.dll</HintPath>
+    </Reference>
+    <Reference Include="Rebex.Common, Version=2.0.4981.0, Culture=neutral, PublicKeyToken=1c4638788972655d, processorArchitecture=MSIL" />
+    <Reference Include="Rebex.Networking, Version=3.0.4981.0, Culture=neutral, PublicKeyToken=1c4638788972655d, processorArchitecture=MSIL" />
+    <Reference Include="Rebex.Telnet, Version=1.0.4981.0, Culture=neutral, PublicKeyToken=1c4638788972655d, processorArchitecture=MSIL" />
+    <Reference Include="Rebex.Terminal, Version=1.0.4981.0, Culture=neutral, PublicKeyToken=1c4638788972655d, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Data.OracleClient" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Drawing.Design" />
+    <Reference Include="System.IO.Compression" />
+    <Reference Include="System.Printing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Abstract\TeLSessionGroupNode.cs" />
+    <Compile Include="Abstract\TeLSessionSendLoginNotRequiredNode.cs" />
+    <Compile Include="Common\StateObject.cs" />
+    <Compile Include="Conditions\AndCondition.cs" />
+    <Compile Include="Conditions\ConditionBase.cs" />
+    <Compile Include="Conditions\DataWithinRegionCondition.cs" />
+    <Compile Include="Conditions\EmptyCondition.cs" />
+    <Compile Include="Conditions\FinalCondition.cs" />
+    <Compile Include="Conditions\LogicalCondition.cs" />
+    <Compile Include="Conditions\NotCondition.cs" />
+    <Compile Include="Conditions\OrCondition.cs" />
+    <Compile Include="Directives\DataBeforeCursorPosition.cs" />
+    <Compile Include="Directives\ExpectBegin.cs" />
+    <Compile Include="Directives\GrabLine.cs" />
+    <Compile Include="Directives\GroupCollection.cs" />
+    <Compile Include="Directives\LoginPair.cs" />
+    <Compile Include="Directives\Session.cs" />
+    <Compile Include="Directives\WaitForData.cs" />
+    <Compile Include="Enums\EnumLoggingOptions.cs" />
+    <Compile Include="Enums\TelTransportLib.cs" />
+    <Compile Include="Enums\IfConditionType.cs" />
+    <Compile Include="Enums\LogLevel.cs" />
+    <Compile Include="Enums\RequiredChildNode.cs" />
+    <Compile Include="Enums\SerializedFormat.cs" />
+    <Compile Include="Enums\FtpTransferModes.cs" />
+    <Compile Include="Enums\socketConnectStatus.cs" />
+    <Compile Include="Enums\TerminalMode.cs" />
+    <Compile Include="Enums\TerminalState.cs" />
+    <Compile Include="Enums\UseDataWaitForDataTimeout.cs" />
+    <Compile Include="Enums\XmlTag.cs" />
+    <Compile Include="EventArgs\ArgumentOutOfCellRangeEventArg.cs" />
+    <Compile Include="EventArgs\ClientDataInEventArgs.cs" />
+    <Compile Include="EventArgs\GrabChangedEventArgs.cs" />
+    <Compile Include="EventArgs\SocketEventArgs.cs" />
+    <Compile Include="EventArgs\TelLogWriterEventArg.cs" />
+    <Compile Include="EventArgs\TeLSessionNodeCancelEventArg.cs" />
+    <Compile Include="EventArgs\TeLSessionNodeProcessEventArg.cs" />
+    <Compile Include="EventArgs\InvalidTagEventArg.cs" />
+    <Compile Include="Exceptions\DeserializeFromXMLException.cs" />
+    <Compile Include="Exceptions\ObjectToJsonException.cs" />
+    <Compile Include="Exceptions\SerializeToXMLException.cs" />
+    <Compile Include="Exceptions\TelEnvyExceptionBase.cs" />
+    <Compile Include="Exceptions\TelEnvyTransactionNotSupportedException.cs" />
+    <Compile Include="Exceptions\TelHostLoginNotPossibleException.cs" />
+    <Compile Include="Exceptions\TeLInvalidIOException.cs" />
+    <Compile Include="Exceptions\TeLMissingTransportException.cs" />
+    <Compile Include="Exceptions\TelUnclassifiedException.cs" />
+    <Compile Include="Exceptions\TelWaitMissingCoordinateException.cs" />
+    <Compile Include="Exceptions\TelXmlFileNotExistsException.cs" />
+    <Compile Include="Exceptions\TeLOutOfRangeException.cs" />
+    <Compile Include="Exceptions\TeLXmlLibMalFormedInfoXML.cs" />
+    <Compile Include="Exceptions\TeLMessageException.cs" />
+    <Compile Include="ExtensionMethods\Extensions.cs" />
+    <Compile Include="Helper\ComponentDescendant.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Helper\EncodingElement.cs" />
+    <Compile Include="Helper\ILogEntry.cs" />
+    <Compile Include="Helper\ITeLLoggerWriter.cs" />
+    <Compile Include="Helper\ITerminalScreen.cs" />
+    <Compile Include="Helper\LoginInfoClass.cs" />
+    <Compile Include="Helper\MessageDetails_c.cs" />
+    <Compile Include="Helper\ObjectXMLSerializer.cs" />
+    <Compile Include="Helper\parseSubstring.cs" />
+    <Compile Include="Helper\SimpleLogger.cs" />
+    <Compile Include="Helper\TeLFile.cs" />
+    <Compile Include="Helper\TeLSessionXmlParser.cs" />
+    <Compile Include="Helper\TraceTeLWriter.cs" />
+    <Compile Include="Helper\UriHelper.cs" />
+    <Compile Include="Helper\VirtualShell.cs" />
+    <Compile Include="Helper\VirtualTerminalHelper.cs" />
+    <Compile Include="Helper\XmlConvert.cs" />
+    <Compile Include="Helper\xmlToJson.cs" />
+    <Compile Include="Helper\LoginInfo.cs" />
+    <Compile Include="Directives\Expect.cs" />
+    <Compile Include="Directives\GrabLines.cs" />
+    <Compile Include="Directives\If.cs" />
+    <Compile Include="Abstract\TeLSessionNode.cs" />
+    <Compile Include="Abstract\TeLSessionNonPairTag.cs" />
+    <Compile Include="Abstract\TeLSessionPairTag.cs" />
+    <Compile Include="Abstract\TeLSessionSendDataNotAllowedNode.cs" />
+    <Compile Include="Abstract\TeLSessionSendDataNotRequiredNode.cs" />
+    <Compile Include="Abstract\TeLSessionSendDataRequiredNode.cs" />
+    <Compile Include="Directives\SessSeq.cs" />
+    <Compile Include="Directives\WaitForCursor.cs" />
+    <Compile Include="Directives\While.cs" />
+    <Compile Include="Logging\Logger.cs" />
+    <Compile Include="Properties\Settings1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings1.settings</DependentUpon>
+    </Compile>
+    <Compile Include="BlockingQueue`1.cs" />
+    <Compile Include="ReadyToSendEventArgs.cs" />
+    <Compile Include="SendLogin.cs" />
+    <Compile Include="Sockets\Framer.cs" />
+    <Compile Include="Sockets\GrabDataEventArgs.cs" />
+    <Compile Include="Sockets\SocketConnectStatus.cs" />
+    <Compile Include="Sockets\SocketClient.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Sockets\SocketClient.Designer.cs">
+      <DependentUpon>SocketClient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StaticLogger.cs" />
+    <Compile Include="TeLSession.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TeLSession.Designer.cs">
+      <DependentUpon>TeLSession.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Exceptions\TeLInvalidDataFormatException.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Exceptions\TeLXMLInvalidTagException.cs" />
+    <Compile Include="Exceptions\TeLConditionOutOfRangeException.cs" />
+    <Compile Include="Exceptions\TeLInvalidCastException.cs" />
+    <Compile Include="Exceptions\TeLNullResultException.cs" />
+    <Compile Include="Exceptions\TeLOutputBufferOverFlowException.cs" />
+    <Compile Include="Exceptions\TeLSpecialKeyNotSupportedException.cs" />
+    <Compile Include="Exceptions\TeLWaitCursorTimeOutException.cs" />
+    <Compile Include="Exceptions\TeLWaitDataRegionTimeOutException.cs" />
+    <Compile Include="TelSessionV3.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TelSessionV3.Designer.cs">
+      <DependentUpon>TelSessionV3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TerminalCell.cs" />
+    <Compile Include="TerminalScreenSC.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TerminalScreenSC.Designer.cs">
+      <DependentUpon>TerminalScreenSC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TerminalScreen.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TerminalScreen.Designer.cs">
+      <DependentUpon>TerminalScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TerminalScreenRegion.cs" />
+    <Compile Include="TelSessionSC.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TelSessionSC.Designer.cs">
+      <DependentUpon>TelSessionSC.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="TeLSession.resx">
+      <DependentUpon>TeLSession.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelSessionSC.resx">
+      <DependentUpon>TelSessionSC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelSessionV3.resx">
+      <DependentUpon>TelSessionV3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TerminalScreenSC.resx">
+      <DependentUpon>TerminalScreenSC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TerminalScreen.resx">
+      <DependentUpon>TerminalScreen.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="App1.config" />
+    <None Include="ComSession XML Component.docx" />
+    <Content Include="NLog.config" />
+    <None Include="NLog.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings1.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings1.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="XML Documents\Example TeL Envy Scripts\PricingAndAtpCheck_Literal" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="XML Documents\Example TeL Envy Scripts\PricingAndAtpCheck_Regex.xml" />
+    <Content Include="XML Documents\LoginInfo.xml" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

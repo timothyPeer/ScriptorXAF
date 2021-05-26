@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" modified="2021-04-05T10:31:15.704-07:00" lasteditedby="tim" version="2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title>Add/Edit Static Elements</title>
+  <body>
+    <header>
+      <para styleclass="Heading1">Add/Edit Static Elements</para>
+    </header>
+    <para styleclass="Normal">Add or Edit the dependent elements:</para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="Add-Adjustment-Account">Adjustment Account</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="Add-Warehouse">Warehouse</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="Add-List-Of-Parts">List of Parts</link></para>
+    <para styleclass="Normal"> -- if parts are iterative properties. .. </para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"></para>
+  </body>
+</topic>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <BOModel Id="BOModel">
+    <Class Name="CCRt.Module.BusinessObjects.PartLookupClass" ImageName="BarCodeShowText" Caption="Part Lookup" />
+  </BOModel>
+  <CreatableItems Id="CreatableItems">
+    <CreatableItem ClassName="CCRt.Module.BusinessObjects.PartLookupClass" Caption="List of Parts" ImageName="Barcode" />
+  </CreatableItems>
+  <ActionDesign Id="ActionDesign">
+    <Actions Id="Actions">
+      <Action Id="popupWindowShowAction_PartNumber" ImageName="BarCodeShowText" Caption="PartNumber" />
+      <Action Id="ShowAdjustmentAccountAction" ImageName="Accounting" ImageMode="UseItemImage" />
+      <Action Id="ShowWarehouseAction" ImageName="BO_Organization" ImageMode="UseItemImage" />
+    </Actions>
+    <ActionToContainerMapping Id="ActionToContainerMapping">
+      <ActionContainer Id="Options">
+        <ActionLink ActionId="ShowAdjustmentAccountAction" Removed="True" />
+      </ActionContainer>
+      <ActionContainer Id="ObjectsCreation">
+        <ActionLink ActionId="ShowWarehouseAction" Removed="True" />
+      </ActionContainer>
+    </ActionToContainerMapping>
+  </ActionDesign>
+</Application>

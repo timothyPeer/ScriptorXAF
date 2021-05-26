@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" modified="2021-04-05T11:16:53.543-07:00" lasteditedby="tim" version="2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title>Sequence Types</title>
+  <body>
+    <header>
+      <para styleclass="Heading1">Sequence Types</para>
+    </header>
+    <para styleclass="Normal">Two Sequence Types are supported. &#160;<link displaytype="text" defaultstyle="true" type="topiclink" href="Sequential-Sequence">Sequential</link> and <link displaytype="text" defaultstyle="true" type="topiclink" href="Iterative-Sequence">iterative</link>. </para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal">List views may have a Sequence column - which should not be confused with Sequence types. </para>
+  </body>
+</topic>
